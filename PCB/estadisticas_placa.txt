@@ -1,0 +1,43 @@
+Informe de estadísticas de la placa
+=============================
+- Fecha: mar 18 feb 2025 21:36:25
+- Proyecto: FiltroPB_TP
+- Nombre de placa: FiltroPB_TP
+
+Placa
+-----
+- Ancho: 78,5000 mm
+- Alto: 51,0000 mm
+- Área: 4003,5000 mm²
+
+Pads
+----
+- Agujero pasante: 41
+- SMD: 0
+- Conector: 0
+- NPTH: 0
+
+Vías
+----
+- Vías pasantes: 0
+- Ciega/Enterrada: 0
+- Microvías: 0
+
+Componentes
+----------
+
+|                  | Lado frontal | Lado trasero | Total |
+|------------------|--------------|--------------|-------|
+|THT:              |           14 |            0 |    14 |
+|SMD:              |            0 |            0 |     0 |
+|No especificado:  |            1 |            0 |     1 |
+|Total:            |           15 |            0 |    15 |
+
+Agujeros de taladros
+-----------
+
+| Cantidad |   Forma |  Tamaño X |  Tamaño Y | Revestido | Vía/Pad | Capa inicial | Capa final |
+|----------|---------|-----------|-----------|-----------|---------|--------------|------------|
+|       26 | Redondo | 0,8000 mm | 0,8000 mm |       PTH |     Pad |         F.Cu |       B.Cu |
+|        8 | Redondo | 0,7100 mm | 0,7100 mm |       PTH |     Pad |         F.Cu |       B.Cu |
+|        7 | Redondo | 1,0000 mm | 1,0000 mm |       PTH |     Pad |         F.Cu |       B.Cu |
