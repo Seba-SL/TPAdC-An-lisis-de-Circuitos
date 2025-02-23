@@ -1,0 +1,35 @@
+LTspice 24.1.0 for Windows
+Circuit: Z:\home\sebastian\FIUBA-2do Cuatrimestre\Analisis de Circuitos\TP\Simulaciones Ltspice\TP\Seba_L_tp.net
+Start Time: Tue Feb 18 20:29:38 2025
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = trap
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+Gmin = 4.03143
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 4.16852
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+Gmin = 4.16242
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.290 seconds.
+
+Files loaded:
+Z:\home\sebastian\FIUBA-2do Cuatrimestre\Analisis de Circuitos\TP\Simulaciones Ltspice\TP\Seba_L_tp.net
+Z:\home\sebastian\FIUBA-2do Cuatrimestre\Analisis de Circuitos\TP\Simulaciones Ltspice\TL081_modelo.txt
+

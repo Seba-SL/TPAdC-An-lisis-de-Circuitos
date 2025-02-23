@@ -1,0 +1,40 @@
+* Z:\home\sebastian\FIUBA-2do Cuatrimestre\Analisis de Circuitos\TP\Simulaciones Ltspice\TP\Seba_L_tp.asc
+V1 Escalon 0 1
+V4 senoidal 0 SINE(0 1 1k 0 0 0 1000)
+V5 Cuadrada 0 PULSE(0 1 0 0.1p 0.1p {1/10} {1/10} 10)
+VAC_analisis VAC_Analisis 0 AC 1
+X§U3 N003 Vout Vcc+ Vcc- Vout TL081
+R5 N002 Vout2 1.2k
+R6 N003 N002 100k
+C3 N003 0 2.2n
+C4 Vout N002 1µ
+V6 Impulso 0 PULSE(0 1 0 0.001p 0.001p {1/10000} {1/10} 10)
+R3 P001 Vout1 10k
+X§U2 0 N001 Vcc+ Vcc- Vout2 TL081
+C2 N001 P001 1µ
+R4 Vout2 N001 8.2k
+V7 Vcc+ Vcc- 30
+R7 0 Vcc+ 100k
+R8 0 Vcc- 100k
+C5 Vout1 VAC_Analisis 1µ
+R9 Vout1 0 10k
+;tran 1ms startup
+* Escalon
+;.tran 0.1 uic
+;.step param f 10 20 10
+* Senoidal
+* .tran 0 10 0 0.0001 uic
+* Cuadrada
+* .tran 0 10 0 0.0001 uic
+* Impulso
+* Circuito de Alimentación
+* Pasa Altos Primer Orden
+* Pasa Bajos 2do Orden Sallen y Key
+* Señales de Prueba
+* Señal de Barrido de f
+* Pasa Altos Primer Orden Pasivo
+* 3,78M /(s² + s 383 + 3,78M)
+.ac dec 1000 0.01 10000
+.lib Z:\home\sebastian\FIUBA-2do Cuatrimestre\Analisis de Circuitos\TP\Simulaciones Ltspice\TL081_modelo.txt
+.backanno
+.end
